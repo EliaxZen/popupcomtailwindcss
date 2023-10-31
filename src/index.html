@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratice TailwindCSS</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body
+    class="select-none box-border bg-gradient-to-t from-cyan-500 to-blue-500 h-screen w-screen overflow-hidden flex justify-start items-center flex-col"
+  >
+  <!--Div "caixa", onde fica armazenado o conteudo e os botões do pop-up -->
+    <div class="mt-10 p-4 bg-white w-1/3 rounded-md">
+      <!--Div com foto do perfil, nome e informações-->
+      <div class="flex items-center ">
+          <div id="foto" class="">
+            <img src="./caracter.jpg" class="w-24 h-24 rounded-full object-cover object-center"/>
+          </div>
+          <div id="nome_conteudo" class="ml-5">
+            <div id="name" class="font-black text-xl mb-3">Elias Galvão</div>
+            <div id="conteudo" class="text-gray-400">Te mandou um convite!</div>
+          </div>
+      </div>
+      <!--Div com os botões de aceitar o convite ou negar-->
+      <div class="mt-6">
+        <button class="p-2 w-20 bg-blue-600 text-white font-black rounded-md">Aceitar</button>
+        <button class="p-2 w-20 ml-2 border-gray-300 border font-black rounded-md">Negar</button>
+      </div>
+    </div>
+  </body>
+</html>
